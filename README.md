@@ -1,5 +1,5 @@
 # FairMatch
-This is the code of our KDD24 submission.
+This is the code of our KDD23 paper, titled "FairMatch: Promoting Partial Label Learning by Unlabeled Samples".
 
 ## Usage:
 ### CIFAR-10 (10%) q=0.1:
