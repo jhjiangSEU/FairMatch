@@ -17,7 +17,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --dataset cifar100 --rho 0.2 --partial_rat
 ### CIFAR-100H ($\rho$=10%, q=0.3):
 
 ```
-CUDA_VISIBLE_DEVICES=0 python main.py --dataset cifar100 --rho 0.1 --partial_rate 0.3 --warm_up 50 --hierarchical
+CUDA_VISIBLE_DEVICES=0 python main.py --dataset cifar100 --hierarchical --rho 0.1 --partial_rate 0.3 --warm_up 50
 ```
 
 ### STL-10 (q=0.1):
