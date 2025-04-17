@@ -2,7 +2,7 @@
 This is the code of our KDD24 paper, titled "FairMatch: Promoting Partial Label Learning by Unlabeled Samples".
 
 ## Usage:
-### CIFAR-10 (10%) q=0.1:
+### CIFAR-10 (\rho=10%, q=0.1):
 
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py --dataset cifar10 --rho 0.1 --partial_rate 0.1
